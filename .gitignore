@@ -1,0 +1,22 @@
+# Secretos y entorno
+.env
+.env.*
+!.env.example
+.dev.vars
+*.pem
+*.key
+
+# Dependencias y builds
+node_modules/
+dist/
+.astro/
+.turbo/
+.wrangler/
+coverage/
+playwright-report/
+test-results/
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.log

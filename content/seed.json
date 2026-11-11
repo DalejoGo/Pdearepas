@@ -1,0 +1,691 @@
+{
+  "_aviso": "TODO ES EJEMPLO (ficticio). Reemplazar con el menú, precios y ajustes reales de Alejandro. No publicar en producción con estos datos.",
+  "location": {
+    "name": "El Punto de la Arepa y Algo Más",
+    "whatsappE164": "+573001234567",
+    "address": "San Juan de Arama, Meta (EJEMPLO)",
+    "timezone": "America/Bogota"
+  },
+  "settings": {
+    "deliveryFee": 3000,
+    "freeDeliveryFrom": null,
+    "minOrder": null,
+    "unconfirmedAlertMinutes": 30,
+    "allowOrdersWhenClosed": false,
+    "hideUnavailable": false,
+    "paymentInstructions": [
+      {
+        "label": "EJEMPLO Nequi",
+        "holder": "Titular de ejemplo",
+        "number": "3000000000"
+      }
+    ],
+    "reservation": {
+      "leadMinutes": 120,
+      "maxDays": 30,
+      "maxParty": 12
+    }
+  },
+  "openingHours": [
+    {
+      "weekday": 0,
+      "open": "11:00",
+      "close": "22:00",
+      "closed": false
+    },
+    {
+      "weekday": 1,
+      "open": "11:00",
+      "close": "22:00",
+      "closed": false
+    },
+    {
+      "weekday": 2,
+      "open": "11:00",
+      "close": "22:00",
+      "closed": false
+    },
+    {
+      "weekday": 3,
+      "open": "11:00",
+      "close": "22:00",
+      "closed": false
+    },
+    {
+      "weekday": 4,
+      "open": "11:00",
+      "close": "22:00",
+      "closed": false
+    },
+    {
+      "weekday": 5,
+      "open": "11:00",
+      "close": "22:00",
+      "closed": false
+    },
+    {
+      "weekday": 6,
+      "open": "11:00",
+      "close": "22:00",
+      "closed": false
+    }
+  ],
+  "categories": [
+    {
+      "name": "Arepas",
+      "slug": "arepas",
+      "sort": 0
+    },
+    {
+      "name": "Hamburguesas",
+      "slug": "hamburguesas",
+      "sort": 1
+    },
+    {
+      "name": "Perros",
+      "slug": "perros",
+      "sort": 2
+    },
+    {
+      "name": "Salchipapas",
+      "slug": "salchipapas",
+      "sort": 3
+    },
+    {
+      "name": "Bebidas",
+      "slug": "bebidas",
+      "sort": 4
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category": "Arepas",
+      "name": "Arepa mixta",
+      "description": "Pollo, carne desmechada, queso y salsas de la casa.",
+      "price": 16000,
+      "featured": true,
+      "available": true,
+      "optionGroups": [
+        {
+          "name": "Adicionales",
+          "required": false,
+          "min": 0,
+          "max": 3,
+          "options": [
+            {
+              "name": "Queso extra",
+              "priceDelta": 2000
+            },
+            {
+              "name": "Tocineta",
+              "priceDelta": 3000
+            },
+            {
+              "name": "Huevo",
+              "priceDelta": 1500
+            }
+          ]
+        },
+        {
+          "name": "Quitar",
+          "required": false,
+          "min": 0,
+          "max": 4,
+          "options": [
+            {
+              "name": "Sin cebolla",
+              "priceDelta": 0
+            },
+            {
+              "name": "Sin tomate",
+              "priceDelta": 0
+            },
+            {
+              "name": "Sin salsas",
+              "priceDelta": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Arepas",
+      "name": "Arepa de carne desmechada",
+      "description": "Con queso derretido y hogao.",
+      "price": 14000,
+      "featured": false,
+      "available": true,
+      "optionGroups": [
+        {
+          "name": "Adicionales",
+          "required": false,
+          "min": 0,
+          "max": 3,
+          "options": [
+            {
+              "name": "Queso extra",
+              "priceDelta": 2000
+            },
+            {
+              "name": "Tocineta",
+              "priceDelta": 3000
+            },
+            {
+              "name": "Huevo",
+              "priceDelta": 1500
+            }
+          ]
+        },
+        {
+          "name": "Quitar",
+          "required": false,
+          "min": 0,
+          "max": 4,
+          "options": [
+            {
+              "name": "Sin cebolla",
+              "priceDelta": 0
+            },
+            {
+              "name": "Sin tomate",
+              "priceDelta": 0
+            },
+            {
+              "name": "Sin salsas",
+              "priceDelta": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Arepas",
+      "name": "Arepa chorizo y queso",
+      "description": "Chorizo a la parrilla y queso costeño.",
+      "price": 12000,
+      "featured": false,
+      "available": true,
+      "optionGroups": [
+        {
+          "name": "Adicionales",
+          "required": false,
+          "min": 0,
+          "max": 3,
+          "options": [
+            {
+              "name": "Queso extra",
+              "priceDelta": 2000
+            },
+            {
+              "name": "Tocineta",
+              "priceDelta": 3000
+            },
+            {
+              "name": "Huevo",
+              "priceDelta": 1500
+            }
+          ]
+        },
+        {
+          "name": "Quitar",
+          "required": false,
+          "min": 0,
+          "max": 4,
+          "options": [
+            {
+              "name": "Sin cebolla",
+              "priceDelta": 0
+            },
+            {
+              "name": "Sin tomate",
+              "priceDelta": 0
+            },
+            {
+              "name": "Sin salsas",
+              "priceDelta": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Arepas",
+      "name": "Arepa Punto Especial",
+      "description": "La más cargada: tres carnes, maduro y queso.",
+      "price": 18000,
+      "featured": true,
+      "available": true,
+      "optionGroups": [
+        {
+          "name": "Adicionales",
+          "required": false,
+          "min": 0,
+          "max": 3,
+          "options": [
+            {
+              "name": "Queso extra",
+              "priceDelta": 2000
+            },
+            {
+              "name": "Tocineta",
+              "priceDelta": 3000
+            },
+            {
+              "name": "Huevo",
+              "priceDelta": 1500
+            }
+          ]
+        },
+        {
+          "name": "Quitar",
+          "required": false,
+          "min": 0,
+          "max": 4,
+          "options": [
+            {
+              "name": "Sin cebolla",
+              "priceDelta": 0
+            },
+            {
+              "name": "Sin tomate",
+              "priceDelta": 0
+            },
+            {
+              "name": "Sin salsas",
+              "priceDelta": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Hamburguesas",
+      "name": "Hamburguesa clásica",
+      "description": "Carne, queso, lechuga, tomate y salsas.",
+      "price": 15000,
+      "featured": false,
+      "available": true,
+      "optionGroups": [
+        {
+          "name": "Adicionales",
+          "required": false,
+          "min": 0,
+          "max": 3,
+          "options": [
+            {
+              "name": "Queso extra",
+              "priceDelta": 2000
+            },
+            {
+              "name": "Tocineta",
+              "priceDelta": 3000
+            },
+            {
+              "name": "Huevo",
+              "priceDelta": 1500
+            }
+          ]
+        },
+        {
+          "name": "Quitar",
+          "required": false,
+          "min": 0,
+          "max": 4,
+          "options": [
+            {
+              "name": "Sin cebolla",
+              "priceDelta": 0
+            },
+            {
+              "name": "Sin tomate",
+              "priceDelta": 0
+            },
+            {
+              "name": "Sin salsas",
+              "priceDelta": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Hamburguesas",
+      "name": "Hamburguesa doble carne",
+      "description": "Doble carne, doble queso y tocineta.",
+      "price": 21000,
+      "featured": true,
+      "available": true,
+      "optionGroups": [
+        {
+          "name": "Adicionales",
+          "required": false,
+          "min": 0,
+          "max": 3,
+          "options": [
+            {
+              "name": "Queso extra",
+              "priceDelta": 2000
+            },
+            {
+              "name": "Tocineta",
+              "priceDelta": 3000
+            },
+            {
+              "name": "Huevo",
+              "priceDelta": 1500
+            }
+          ]
+        },
+        {
+          "name": "Quitar",
+          "required": false,
+          "min": 0,
+          "max": 4,
+          "options": [
+            {
+              "name": "Sin cebolla",
+              "priceDelta": 0
+            },
+            {
+              "name": "Sin tomate",
+              "priceDelta": 0
+            },
+            {
+              "name": "Sin salsas",
+              "priceDelta": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "category": "Hamburguesas",
+      "name": "Hamburguesa de pollo",
+      "description": "Pechuga apanada y salsa de ajo.",
+      "price": 17000,
+      "featured": false,
+      "available": false,
+      "optionGroups": [
+        {
+          "name": "Adicionales",
+          "required": false,
+          "min": 0,
+          "max": 3,
+          "options": [
+            {
+              "name": "Queso extra",
+              "priceDelta": 2000
+            },
+            {
+              "name": "Tocineta",
+              "priceDelta": 3000
+            },
+            {
+              "name": "Huevo",
+              "priceDelta": 1500
+            }
+          ]
+        },
+        {
+          "name": "Quitar",
+          "required": false,
+          "min": 0,
+          "max": 4,
+          "options": [
+            {
+              "name": "Sin cebolla",
+              "priceDelta": 0
+            },
+            {
+              "name": "Sin tomate",
+              "priceDelta": 0
+            },
+            {
+              "name": "Sin salsas",
+              "priceDelta": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "category": "Perros",
+      "name": "Perro sencillo",
+      "description": "Salchicha, papitas y salsas.",
+      "price": 9000,
+      "featured": false,
+      "available": true,
+      "optionGroups": [
+        {
+          "name": "Adicionales",
+          "required": false,
+          "min": 0,
+          "max": 3,
+          "options": [
+            {
+              "name": "Queso extra",
+              "priceDelta": 2000
+            },
+            {
+              "name": "Tocineta",
+              "priceDelta": 3000
+            },
+            {
+              "name": "Huevo",
+              "priceDelta": 1500
+            }
+          ]
+        },
+        {
+          "name": "Quitar",
+          "required": false,
+          "min": 0,
+          "max": 4,
+          "options": [
+            {
+              "name": "Sin cebolla",
+              "priceDelta": 0
+            },
+            {
+              "name": "Sin tomate",
+              "priceDelta": 0
+            },
+            {
+              "name": "Sin salsas",
+              "priceDelta": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "category": "Perros",
+      "name": "Perro especial",
+      "description": "Con queso gratinado, tocineta y huevo de codorniz.",
+      "price": 13000,
+      "featured": false,
+      "available": true,
+      "optionGroups": [
+        {
+          "name": "Adicionales",
+          "required": false,
+          "min": 0,
+          "max": 3,
+          "options": [
+            {
+              "name": "Queso extra",
+              "priceDelta": 2000
+            },
+            {
+              "name": "Tocineta",
+              "priceDelta": 3000
+            },
+            {
+              "name": "Huevo",
+              "priceDelta": 1500
+            }
+          ]
+        },
+        {
+          "name": "Quitar",
+          "required": false,
+          "min": 0,
+          "max": 4,
+          "options": [
+            {
+              "name": "Sin cebolla",
+              "priceDelta": 0
+            },
+            {
+              "name": "Sin tomate",
+              "priceDelta": 0
+            },
+            {
+              "name": "Sin salsas",
+              "priceDelta": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "category": "Salchipapas",
+      "name": "Salchipapa sencilla",
+      "description": "Papa criolla, salchicha y salsas.",
+      "price": 12000,
+      "featured": false,
+      "available": true,
+      "optionGroups": [
+        {
+          "name": "Quitar",
+          "required": false,
+          "min": 0,
+          "max": 4,
+          "options": [
+            {
+              "name": "Sin cebolla",
+              "priceDelta": 0
+            },
+            {
+              "name": "Sin tomate",
+              "priceDelta": 0
+            },
+            {
+              "name": "Sin salsas",
+              "priceDelta": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "category": "Salchipapas",
+      "name": "Salchipapa mixta",
+      "description": "Con pollo, chorizo y queso.",
+      "price": 18000,
+      "featured": false,
+      "available": true,
+      "optionGroups": [
+        {
+          "name": "Quitar",
+          "required": false,
+          "min": 0,
+          "max": 4,
+          "options": [
+            {
+              "name": "Sin cebolla",
+              "priceDelta": 0
+            },
+            {
+              "name": "Sin tomate",
+              "priceDelta": 0
+            },
+            {
+              "name": "Sin salsas",
+              "priceDelta": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "category": "Bebidas",
+      "name": "Gaseosa 400 ml",
+      "description": "Pregunte por los sabores.",
+      "price": 3500,
+      "featured": false,
+      "available": true,
+      "optionGroups": [
+        {
+          "name": "Sabor",
+          "required": true,
+          "min": 1,
+          "max": 1,
+          "options": [
+            {
+              "name": "Cola",
+              "priceDelta": 0
+            },
+            {
+              "name": "Naranja",
+              "priceDelta": 0
+            },
+            {
+              "name": "Uva",
+              "priceDelta": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "category": "Bebidas",
+      "name": "Jugo natural",
+      "description": "En agua o en leche.",
+      "price": 5500,
+      "featured": false,
+      "available": true,
+      "optionGroups": []
+    },
+    {
+      "id": 14,
+      "category": "Bebidas",
+      "name": "Limonada",
+      "description": "Natural o de coco.",
+      "price": 5000,
+      "featured": false,
+      "available": true,
+      "optionGroups": []
+    }
+  ],
+  "banners": [
+    {
+      "title": "Combo arepa + gaseosa",
+      "text": "Su arepa favorita con bebida por un solo precio. (EJEMPLO)",
+      "active": true
+    },
+    {
+      "title": "Martes de perros",
+      "text": "Perro especial con papas al precio del sencillo. (EJEMPLO)",
+      "active": true
+    },
+    {
+      "title": "Domicilio en San Juan de Arama",
+      "text": "Pida desde acá y le llevamos a la puerta.",
+      "active": true
+    }
+  ]
+}
